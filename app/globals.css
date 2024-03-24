@@ -217,3 +217,18 @@
   @apply cursor-default select-none py-2 pl-10 pr-4;
 }
 /* END: search manufacturer styles */
+
+/* START: Track */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e3339;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1a1d20;
+}
+/* END: Track */
