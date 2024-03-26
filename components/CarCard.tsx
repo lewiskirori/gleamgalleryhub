@@ -1,5 +1,6 @@
 "use client";
 
+import Image from 'next/image';
 import { CarProps } from '@/types';
 import { calculateCarLeasing } from '@/utils';
 import React from 'react'
@@ -37,6 +38,15 @@ const CarCard = ({ car } : CarCardProps) => {
                     / day
                 </span>
             </p>
+
+            <div className="relative w-full h-40 my-3 object-contain">
+                <Image src="/hero.png" 
+                alt='Vehicle-Model'
+                fill
+                priority
+                className="object-contain"
+                />
+            </div>
         </div>
     )
 }

@@ -74,28 +74,28 @@ export const manufacturers = [
     {
       title: "About",
       links: [
-        { title: "How it works", url: "/" },
-        { title: "Featured", url: "/" },
-        { title: "Partnership", url: "/" },
-        { title: "Terms & Conditions", url: "/" },
+        { title: "How it works", url: "/#system-operation" },
+        { title: "Featured", url: "/#highlights" },
+        { title: "Partnership", url: "/#partners" },
+        { title: "Terms & Conditions", url: "/#terms" },
       ],
     },
     {
       title: "Company",
       links: [
-        { title: "Events", url: "/" },
-        { title: "Customer’s Guide", url: "/" },
-        { title: "Blog and Podcast", url: "/" },
-        { title: "Tag a friend", url: "/" },
+        { title: "Events", url: "/#events" },
+        { title: "Customer’s Guide", url: "/#user-guide" },
+        { title: "Blog and Podcast", url: "/#media-and-fun" },
+        { title: "Tag a friend", url: "/#share-widely" },
       ],
     },
     {
-      title: "Let’s Connect",
+      title: "Let’s connect",
       links: [
-        { title: "Pinterest", url: "/" },
-        { title: "Instagram", url: "/" },
-        { title: "X (Twitter)", url: "/" },
-        { title: "Facebook", url: "/" },
+        { title: "Pinterest", url: "https://pinterest.com/search/pins/?q=cars&rs=" },
+        { title: "Instagram", url: "https://instagram.com/direct/t/" },
+        { title: "X (Twitter)", url: "https://twitter.com/search?q=cars&src=" },
+        { title: "Facebook", url: "https://facebook.com/login/?next=" },
       ],
     },
   ];

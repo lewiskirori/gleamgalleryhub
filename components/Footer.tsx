@@ -41,11 +41,11 @@ const Footer = () => {
 
       <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
         <div className="footer__copyrights-link">
-          <Link href="/" className="text-gray-500 transition hover:underline">
+          <Link href="/#privacy" className="text-gray-500 transition hover:underline">
             Privacy Policy
           </Link>
-            <div className="text-gray-500">•</div>
-          <Link href="/" className="text-gray-500 transition duration-300 ease-in-out hover:underline">
+            <div className="text-gray-500">·</div>
+          <Link href="/#cookies" className="text-gray-500 transition duration-300 ease-in-out hover:underline">
             Cookie Policy
           </Link>
         </div>
