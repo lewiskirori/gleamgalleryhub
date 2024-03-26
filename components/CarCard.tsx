@@ -3,7 +3,8 @@
 import Image from 'next/image';
 import { CarProps } from '@/types';
 import { calculateCarLeasing } from '@/utils';
-import React from 'react'
+import React, { useState } from 'react'
+import { CarDeets, CustomButton } from '.';
 
 interface CarCardProps {
     car: CarProps;
@@ -18,6 +19,8 @@ const CarCard = ({ car } : CarCardProps) => {
         transmission,
         drive
     } = car;
+
+    const [isOpen, setIsOpen] = useState(false);
 
     const autoLeasing = calculateCarLeasing(city_mpg, year).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
@@ -39,14 +42,66 @@ const CarCard = ({ car } : CarCardProps) => {
                 </span>
             </p>
 
-            <div className="relative w-full h-40 my-3 object-contain">
+            <div className="relative w-full h-48 my-3 object-contain">
                 <Image src="/hero.png" 
-                alt='Vehicle-Model'
-                fill
-                priority
-                className="object-contain"
+                alt="Vehicle-Model"
+                layout="fill"
+                objectFit="contain"
+                className="object-cover transition-transform duration-300 hover:scale-105"
                 />
             </div>
+
+            <div className="relative flex w-full mt-2">
+                <div className="flex justify-start items-center gap-6 text-gray">
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <Image src="/car-transmission.svg" 
+                            width={20}
+                            height={20}
+                            alt="Transmission"
+                        />
+                        <p className="text-[14px]">
+                            {transmission === 'a' ? 'Auto' : 'Manual'}
+                        </p>
+                    </div>
+
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <Image src="/car-wheel-drive.svg" 
+                            width={20}
+                            height={20}
+                            alt="Wheel-Drive"
+                        />
+                        <p className="text-[14px]">
+                            {drive.toUpperCase()}
+                        </p>
+                    </div>
+
+                    <div className="flex flex-col justify-center items-center gap-2">
+                        <Image src="/fuel-tank.svg" 
+                            width={25}
+                            height={25}
+                            alt="Gas-Tank"
+                        />
+                        <p className="text-[14px]">
+                            {city_mpg} MpG
+                        </p>
+                    </div>
+                </div>
+
+                <div className="car-card__btn-container">
+                    <CustomButton 
+                        title='Quick View'
+                        handleClick={() => setIsOpen(true)}
+                    />
+                </div>
+            </div>
+
+            <CarDeets 
+                isOpen={isOpen}
+                closeModal={() =>
+                    setIsOpen(false)
+                }
+                car={car}
+            />
         </div>
     )
 }

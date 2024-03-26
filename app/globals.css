@@ -128,7 +128,17 @@
 }
 
 .car-card__btn-container {
-  @apply hidden group-hover:flex absolute bottom-0 w-full z-10;
+  @apply flex absolute bottom-0 right-0 z-10;
+  border: 1px solid transparent;
+  background-color: rgba(59, 130, 246, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: rgba(59, 130, 246, 0.5);
+  color: rgba(0, 0, 0, 0.85);
+  border-radius: 0.5rem;
+}
+
+.car-card__btn-container:hover {
+  transform: scale(1.05);
 }
 /* END: Car Card styles */
 

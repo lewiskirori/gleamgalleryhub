@@ -17,7 +17,7 @@ export default async function Home() {
           <h1 className="text-4xl font-extrabold">
             Auto Catalog
           </h1>
-          <p>Find the cars you dream about</p>
+          <p>Pinpoint the car(s) you dream about</p>
         </div>
 
         <div className="home__filters">
