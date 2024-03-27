@@ -52,7 +52,7 @@ const CarCard = ({ car } : CarCardProps) => {
             </div>
 
             <div className="relative flex w-full mt-2">
-                <div className="flex justify-start items-center gap-6 text-gray">
+                <div className="flex justify-start items-center gap-3 text-gray">
                     <div className="flex flex-col justify-center items-center gap-2">
                         <Image src="/car-transmission.svg" 
                             width={20}
