@@ -59,7 +59,7 @@ const CarDeets = ({ isOpen, closeModal, car } : CarDeetsProps) => {
                 ">
                   <button
                     type="button"
-                    className="absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100 border-2 border-transparent rounded-full transition hover:bg-primary-blue-200 hover:border-gray-700"
+                    className="absolute top-2 right-2 z-10 w-fit p-2 bg-primary-blue-100 border-2 border-transparent rounded-full transition hover:bg-primary-blue-200 hover:border-blue-500"
                     onClick={closeModal}
                   >
                     <Image
