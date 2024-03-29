@@ -1,4 +1,4 @@
-# The GleamGalleryHub
+# GleamGalleryHub
 
 Welcome to the Gleam Gallery Hub App!
 
