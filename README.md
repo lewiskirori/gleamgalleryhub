@@ -33,3 +33,8 @@ We are grateful for your comments! Contact us at hoot@gleamgalleryhub.com with a
 ## License
 
 This project is licensed under the MIT License.
+
+
+---
+
+Enjoy your ride!
