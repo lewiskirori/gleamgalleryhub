@@ -23,7 +23,7 @@ const Hero = () => {
         </p>
 
         <CustomButton 
-          title="Jump right into your favorite rides"
+          title="Discover your favorite rides"
           containerStyles="bg-blue-500 border border-transparent text-white rounded-full mt-10 transition duration-300 ease-in-out hover:bg-transparent hover:text-blue-600 hover:border-gray-900"
           handleClick={handleScroll}
         />
