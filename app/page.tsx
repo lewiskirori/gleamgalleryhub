@@ -1,27 +1,21 @@
 import { CustomFilter, Hero, SearchBar } from "@/components";
 import CarCard from "@/components/CarCard";
+import { fuels, yearsOfProduction } from "@/constants";
 import ToasterProvider from "@/providers/ToasterProvider";
 import { fetchCars } from "@/utils";
+import { HomeProps } from "@types";
 import Image from "next/image";
 
-export default async function Home({ searchParams }) {
-  const getRandomYearInRange = () => {
-    const currentYear = new Date().getFullYear();
-    const years = Array.from({ length: currentYear - 2018 }, (_, index) => 2019 + index);
-    const randomIndex = Math.floor(Math.random() * years.length);
-    return years[randomIndex];
-  };
-
+export default async function Home({ searchParams }: HomeProps) {
   const allCars = await fetchCars({
     manufacturer: searchParams.manufacturer || '',
-    year: searchParams.year || getRandomYearInRange(),
+    year: searchParams.year || 2022,
     fuel: searchParams.fuel || '',
     limit: searchParams.limit || 10,
     model: searchParams.model || '',
   });
 
   const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
-
 
   return (
     <main className="overflow-hidden">
@@ -45,8 +39,8 @@ export default async function Home({ searchParams }) {
               home__filter-container
             "
           >
-            <CustomFilter title="fuel" />
-            <CustomFilter title="year" />
+            <CustomFilter title='fuel' options={fuels} />
+            <CustomFilter title='year' options={yearsOfProduction} />
           </div>
         </div>
 
