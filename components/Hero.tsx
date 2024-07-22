@@ -19,11 +19,11 @@ const Hero = () => {
         </h1>
 
         <p className="hero__subtitle">
-          Accelerate your car reservation ‘oomph’ with our snap <em>trade-satisfaction</em> checkout process.
+          Step up your car reservation <em>oomph</em> with our snap ‘trade-satisfaction’ checkout process.
         </p>
 
         <CustomButton 
-          title="Discover your favorite rides"
+          title="Reveal your favorite rides"
           containerStyles="bg-blue-500 border border-transparent text-white rounded-full mt-10 transition duration-300 ease-in-out hover:bg-transparent hover:text-blue-600 hover:border-gray-900"
           handleClick={handleScroll}
         />
