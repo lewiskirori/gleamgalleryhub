@@ -89,7 +89,7 @@ const CarCard = ({ car } : CarCardProps) => {
 
                 <div className="car-card__btn-container">
                     <CustomButton 
-                        title='Quick View'
+                        title='Quick view'
                         handleClick={() => setIsOpen(true)}
                     />
                 </div>
