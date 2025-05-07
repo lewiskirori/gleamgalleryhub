@@ -11,7 +11,7 @@
   font-family: 'Google Sans', sans-serif;
 }
 
-/* START: General style */
+/* START: General styles */
 .max-width {
   @apply max-w-[1440px] mx-auto;
 }
@@ -35,7 +35,7 @@
 .custom-btn {
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
 }
-/* END: General style */
+/* END: General styles */
 
 /* START: Hero styles */
 .hero {
