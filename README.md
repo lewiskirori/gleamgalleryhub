@@ -28,7 +28,7 @@ To begin viewing our automotive collection, simply visit our website and browse.
 
 ## Feedback
 
-We are grateful for your comments! Contact us at hoot@gleamgalleryhub.com with any suggestions or questions.
+We are grateful for your comments… Contact us at hoot@gleamgalleryhub.com with any suggestions or questions.
 
 ## License
 
