@@ -1,5 +1,5 @@
 # GleamGalleryHub
-
+ 
 Welcome to the Gleam Gallery Hub App!
 
 ## Overview
