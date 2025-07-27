@@ -8,7 +8,7 @@ The Automobile Expo Affair App offers a carefully chosen collection of gorgeous 
 
 ## Features
 
-1. **Extensive car collection**: Explore a wide range of cars, including classic models, sports cars, luxury vehicles, and more.
+1. **Extensive car collection**: A wide range of cars, including classic models, sports cars, luxury vehicles, and more.
    
 2. **Sleek user interface**: Enjoy a modern, easy-to-use interface that makes surfing fun and navigation a breeze.
    
