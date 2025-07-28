@@ -4,7 +4,7 @@ Welcome to the Gleam Gallery Hub App!
 
 ## Overview
 
-The Automobile Expo Affair App offers a carefully chosen collection of gorgeous vehicles from different manufacturers, offering consumers a memorable look-through feel.
+The Automobile Expo Affair App offers a carefully chosen collection of vehicles from different manufacturers, offering consumers a memorable look-through feel.
 
 ## Features
 
