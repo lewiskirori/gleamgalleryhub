@@ -1,7 +1,8 @@
 # GleamGalleryHub
----
 
 Welcome to Gleam Gallery Hub App!
+
+---
 
 ## Overview
 
