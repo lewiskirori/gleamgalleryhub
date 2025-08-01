@@ -18,7 +18,7 @@ The Automobile Expo Affair App offers a carefully chosen collection of vehicles 
  
 4. **Detailed information**: Access comprehensive information about each car, including specifications, features, performance metrics, and more.
    
-5. **Personalized recommendations**: Receive personalized recommendations based on your preferences and browsing history, ensuring you discover cars that resonate with your interests.
+5. **Personalized recommendations**: Receive personalized recommendations based on your preferences and browsing history, ensuring you discover cars that resonate your interests.
    
 6. **Save favorites**: Save your favorite cars for easy access and comparison, allowing you to revisit them later without having to search again.
    
