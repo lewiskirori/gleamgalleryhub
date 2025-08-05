@@ -29,7 +29,7 @@ export const calculateCarLeasing = (city_mpg: number, year: number) => {
     const mileageFactor = 0.1;
 
     // Rate per year of the vehicle age
-    const ageFactor = 0.05; 
+    const ageFactor = 0.05;
 
     // Rate based on age and mileage
     const mileageRate = city_mpg * mileageFactor;
