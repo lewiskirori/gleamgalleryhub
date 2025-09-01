@@ -14,7 +14,6 @@ export async function fetchCars(filters: FilterProps) {
             headers: headers,
         }
     );
-
     const result = await response.json();
 
     return result;
