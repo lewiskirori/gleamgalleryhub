@@ -31,7 +31,6 @@ export interface CarProps {
     year: number;
 }
 
-
 export interface FilterProps {
     manufacturer: string,
     year: number,
