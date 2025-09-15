@@ -21,7 +21,8 @@ const Navbar = () => {
               title="Sign In"
               btnType="button"
               containerStyles="bg-transparent border border-gray-900 text-gray-900 
-              rounded-full min-w-[130px] transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white hover:border-transparent"
+              rounded-full min-w-[130px] transition duration-300 ease-in-out hover:bg-blue-500 
+              hover:text-white hover:border-transparent"
             />
         </nav>
     </header>
