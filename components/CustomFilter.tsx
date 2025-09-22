@@ -29,7 +29,7 @@ const CustomFilter = ({ title, options, setFilter }: CustomFilterProps) => {
               width={20}
               height={20}
               className='ml-4 object-contain'
-              alt="Chevron up down"
+              alt="chevron up down"
             />
           </Listbox.Button>
           <Transition
