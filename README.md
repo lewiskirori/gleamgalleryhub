@@ -26,7 +26,7 @@ The Automobile Expo Affair App offers a carefully chosen collection of vehicles 
 
 ## Getting started
 
-To begin viewing our automotive collection, visit our website and browse. No downloads or installations are required! Our online app works seamlessly across all devices, allowing you to find your favorite automobiles from the convenience of your desktop, laptop, tablet, or smartphone.
+To begin viewing our automotive collection, visit our website and browse. No downloads or installations are required. Our online app works seamlessly across all devices, allowing you to find your favorite automobiles from the convenience of your desktop, laptop, tablet, or smartphone.
 
 ## Feedback
 
