@@ -17,7 +17,6 @@ const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {
   return (
     <div className="
       w-full
-      flex-center
       gap-5
       mt-10
     ">
