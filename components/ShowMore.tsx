@@ -9,7 +9,7 @@ import { updateSearchParams } from "@/utils";
 
 const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {  
   const handleNavigation = () => {
-    const newLimit = (pageNumber + 1) * 20;
+    const newLimit = (pageNumber + 1) * 10;
     
     setLimit(newLimit);
   }
