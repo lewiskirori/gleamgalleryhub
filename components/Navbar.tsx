@@ -12,7 +12,7 @@ const Navbar = () => {
                     src="/logo.svg"
                     alt="GleamGalleryHub-Head"
                     width={118}
-                    height={28}
+                    height={18}
                     className="object-contain"
                 />
             </Link>
