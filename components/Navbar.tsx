@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Image
                     src="/logo.svg"
                     alt="GleamGalleryHub-Head"
-                    width={118}
+                    width={108}
                     height={18}
                     className="object-contain"
                 />
