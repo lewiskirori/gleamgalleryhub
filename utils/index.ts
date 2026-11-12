@@ -22,7 +22,7 @@ export async function fetchCars(filters: FilterProps) {
 export const calculateCarLeasing = (city_mpg: number, year: number) => {
 
     // Leasing price per day in Ksh
-    const basePricePerDay = 7600;
+    const basePricePerDay = 6700;
 
     // Rate per mile driven
     const mileageFactor = 0.1;
